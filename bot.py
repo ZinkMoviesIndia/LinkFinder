@@ -53,7 +53,7 @@ def handle_search(message):
         for result in results:
             content += f"<b>Title:</b> {result['title']}<br>"
             content += f"<b>Size:</b> {result['size']}<br>"
-            content += f"<b>Direct Link:</b> <a href='https://scloud.starkflix.cloud/file/{result['id']}'>Download</a><br><br>"
+            content += f"<b>Direct Link:</b> <a href='https://zinkmovies.me/movies/{result['id']}'>Download</a><br><br>"
 
         # Create Telegraph page
         page_url = create_telegraph_page(query, content)
